@@ -3,8 +3,8 @@
 #include <cmath>
 
 void triple_pitagorico() {
-    for (int a = 1; a <= 20; a++) {
-        for (int b = a; b <= 20; b++) {
+    for (int a = 1; a <= 8; a++) {
+        for (int b = a; b <= 15; b++) {
             int c = static_cast<int>(sqrt(pow(a, 2) + pow(b, 2)));
             if (pow(c, 2) == pow(a, 2) + pow(b, 2)) {
                 std::cout << "- " << a << " - " << b << " - " << c << std::endl;
