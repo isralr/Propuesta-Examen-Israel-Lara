@@ -7,7 +7,7 @@ int main() {
     std::setlocale(LC_ALL, "");
     std::wcout.imbue(std::locale(""));
 
-    std::wcout << L"Triángulos pitagóricos:" << std::endl;
+    std::wcout << L"Triple pitagóricos:" << std::endl;
 
     triple_pitagorico();
 
